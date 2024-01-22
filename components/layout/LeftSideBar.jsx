@@ -19,11 +19,11 @@ const LeftSideBar = () => {
     <div className='custom-scrollbar sticky left-0 top-0 flex h-screen flex-col gap-6 overflow-auto px-10 py-6 max-md:hidden'>
       <Link
         href={'/'}
-        className={`${zenDots.className} my-4 w-[200px] text-heading1-bold font-semibold text-white`}>
+        className={`${zenDots.className} my-2 w-[200px] text-heading1-bold font-semibold text-white`}>
         Vibez
       </Link>
 
-      <div className='mt-4 flex flex-col gap-4'>
+      <div className='mt-6 flex flex-col gap-4'>
         <div className='flex flex-col items-center gap-2 text-light-1'>
           <Link href={'/'}>
             <Image
