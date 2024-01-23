@@ -22,9 +22,9 @@ const TopBar = () => {
             setSearch(e.target.value);
           }}
         />
-        <Search className='search-icon' onclick={() => {}} />
+        <Search className='search-icon' onClick={() => {}} />
       </div>
-      <button className='create-post-btn' onclick={() => router.push('/create-post')}>
+      <button className='create-post-btn' onClick={() => router.push('/create-post')}>
         <Add />
         <p>Creat A Post</p>
       </button>
