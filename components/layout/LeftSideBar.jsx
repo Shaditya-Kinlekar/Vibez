@@ -6,6 +6,7 @@ import { Zen_Dots } from 'next/font/google';
 import { Logout } from '@mui/icons-material';
 import { SignOutButton, SignedIn, UserButton } from '@clerk/nextjs';
 import Menu from './Menu';
+import { dark } from '@clerk/themes';
 
 const zenDots = Zen_Dots({
   subsets: ['latin'],
@@ -56,7 +57,7 @@ const LeftSideBar = () => {
         <hr />
 
         <div className='flex items-center gap-4'>
-          <UserButton />
+          <UserButton appearance={{ baseTheme: dark }} />
           <p className='text-body-bold text-light-1'>Manage Account</p>
         </div>
 
